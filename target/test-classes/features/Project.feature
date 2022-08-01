@@ -120,20 +120,4 @@ Feature: Generate token, Add new Account, add car info, add address and add phon
      Then status 201
      And print response
      
-     
-     
-     
-     
-     
-     
-     
-     
-      
-    #Ened-to-End means, a feature from the begeggin to the end, means all of the scenarios under this
-    # feaure. for this feature file, we are jsut generating the token with just passing the
-    # path of it under backgournd keyword, we could do it in a seprate feature file and use callonec
-    # method which i did at first and worked, but we just did it this way.
-    # every step need header for authoiztion, we just add it under backgournd keyword.
     
-    #Importatn Note: header authotiztion should be aither after the path, or after the request.
-    # otherwise, our test would fail
