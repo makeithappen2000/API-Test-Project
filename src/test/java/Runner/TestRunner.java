@@ -4,7 +4,6 @@ import com.intuit.karate.junit5.Karate;
 
 public class TestRunner {
 
-	
 	@Karate.Test
 	public Karate runTag () {
 		return Karate.run("classpath:features").tags("@End-2-End");
